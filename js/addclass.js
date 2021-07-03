@@ -1,5 +1,5 @@
 'use strict';
-
+// funcion para agregar clases
 function myFunction() {
     var element = document.getElementById("prueba");
     element.classList.toggle("prueba1");
