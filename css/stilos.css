@@ -68,7 +68,7 @@ h1 {
     color: hsl(214, 17%, 51%);
     line-height: 20px;
     font-size: 1em;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     width: 350px;
 }
 
@@ -95,7 +95,7 @@ h1 {
     color: hsl(217, 19%, 35%);
     font-size: 1.1em;
     font-weight: 700;
-    padding-top: 15px;
+    padding-top: 0px;
     padding-bottom: 0px;
     margin-bottom: 0px;
 }
@@ -109,8 +109,8 @@ h1 {
 .share {
     background-color: hsl(210, 46%, 95%);
     margin-left: 150px;
-    width: 35px;
-    height: 35px;
+    width: 33px;
+    height: 33px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -179,7 +179,7 @@ h1 {
         width: 250px;
         line-height: 18px;
         padding-right: 20px;
-        margin-bottom: 15px;
+        margin-bottom: 20px;
     }
 
     .share {
@@ -202,8 +202,8 @@ h1 {
     position: absolute;
     background-color: hsl(217, 19%, 35%);
     width: 250px;
-    right: -65px;
-    bottom: 90px;
+    right: -68px;
+    bottom: 92px;
     display: none;
     justify-content: center;
     align-items: center;
@@ -212,7 +212,7 @@ h1 {
     font-size: 13px;
     letter-spacing: 5px;
     text-transform: uppercase;
-    padding: 6px 0px 6px 0px;
+    padding: 5px 0px 5px 0px;
     box-shadow: 5px 05px 20px 0px hsl(212, 23%, 69%);
 }
 
@@ -224,8 +224,8 @@ h1 {
 .social::after {
     content: "";
     position: absolute;
-    height: 20px;
-    width: 20px;
+    height: 15px;
+    width: 15px;
     background-color: hsl(217, 19%, 35%);
     margin: 0 -7em -4em -6.9em;
     transform: rotate(45deg);
