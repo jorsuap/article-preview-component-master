@@ -16,8 +16,6 @@ body {
     flex-direction: column;
     height: 100vh;
     width: 100%;
-
-
 }
 
 .continer-seccion {
@@ -53,7 +51,6 @@ body {
     box-sizing: border-box;
     height: 270px;
     padding: 20px 40px;
-
 }
 
 h1 {
@@ -154,10 +151,11 @@ h1 {
         width: 300px;
         height: auto;
     }
+
     .profile {
         margin-bottom: 3px;
     }
-    
+
     .cont-img {
         width: 300px;
         height: 200px;
@@ -229,7 +227,6 @@ h1 {
     background-color: hsl(217, 19%, 35%);
     margin: 0 -7em -4em -6.9em;
     transform: rotate(45deg);
-
 }
 
 .prueba1 {
@@ -258,10 +255,12 @@ h1 {
     .social::after {
         display: none;
     }
+
     .social :first-child {
         margin: 10px 0px 10px 12px;
     }
-    .social p{
+
+    .social p {
         padding-left: 10px;
     }
 }
