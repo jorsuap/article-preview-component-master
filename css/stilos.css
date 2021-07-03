@@ -17,6 +17,7 @@ body {
     height: 100vh;
     width: 100%;
 
+
 }
 
 .continer-seccion {
@@ -27,12 +28,13 @@ body {
     box-shadow: 5px 7px 20px 0px hsl(212, 23%, 69%);
     background-color: hsl(0, 0%, 100%);
     margin-bottom: 30px;
+    position: relative;
 }
 
 .cont-img {
     position: relative;
-    width: 300px;
-    height: 300px;
+    width: 270px;
+    height: 270px;
 }
 
 .continer-img {
@@ -49,8 +51,8 @@ body {
     background-color: hsl(0, 0%, 100%);
     border-radius: 0 10px 10px 0;
     box-sizing: border-box;
-    height: 300px;
-    padding: 20px 50px;
+    height: 270px;
+    padding: 20px 40px;
 
 }
 
@@ -59,11 +61,12 @@ h1 {
     font-weight: 700;
     color: hsl(217, 19%, 35%);
     width: 350px;
+    margin-top: 5px;
 }
 
 .text {
     color: hsl(214, 17%, 51%);
-    line-height: 23px;
+    line-height: 20px;
     font-size: 1em;
     margin-bottom: 0px;
     width: 350px;
@@ -99,7 +102,7 @@ h1 {
 
 .fecha {
     color: hsl(212, 23%, 69%);
-    padding-bottom: 20px;
+    padding-bottom: 0px;
     margin-top: 0px;
 }
 
@@ -112,6 +115,7 @@ h1 {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .share:hover {
@@ -155,14 +159,16 @@ h1 {
         width: 300px;
         height: 200px;
     }
+
     .continer-perfil {
-        padding: 20px 30px 10px;
+        padding: 20px 30px 0px;
     }
+
     h1 {
         font-size: 1.1em;
         width: 100%;
     }
-    
+
     .text {
         box-sizing: border-box;
         line-height: 13px;
@@ -170,26 +176,89 @@ h1 {
         width: 250px;
         line-height: 18px;
         padding-right: 20px;
-        margin-bottom: 0px;
+        margin-bottom: 15px;
     }
-
-    
 
     .share {
         margin-left: 25px;
+        z-index: 999;
+    }
+
+    .name {
+        padding-top: 0px;
     }
 
     .fecha {
-        padding-bottom: 0px;
+        padding-bottom: 5px;
     }
 }
 
 /*Clase add*/
 
+.social {
+    position: absolute;
+    background-color: hsl(217, 19%, 35%);
+    width: 250px;
+    right: -75px;
+    bottom: 90px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    color: hsl(212, 23%, 69%);
+    border-radius: 10px;
+    font-size: 11px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 6px 10px 6px 10px;
+    box-shadow: 5px 05px 20px 0px hsl(212, 23%, 69%);
+}
 
-.prueba1{
+.social :first-child {
+    margin: 10px 13px;
+    cursor: pointer;
+}
+
+.social::after {
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background-color: hsl(217, 19%, 35%);
+    margin: 0 -7em -4em -6.9em;
+    transform: rotate(45deg);
+
+}
+
+.prueba1 {
     background-color: hsl(214, 17%, 51%);
 }
-.prueba2{
+
+.prueba2 {
     fill: hsl(0, 0%, 100%);
+}
+
+.active {
+    display: flex;
+}
+
+@media(max-width:800px) {
+
+    .social {
+        width: 280px;
+        right: 0px;
+        bottom: 0px;
+        border-radius: 0 0 10px 10px;
+        padding: 10px 10px 10px 10px;
+        justify-content: start;
+    }
+
+    .social::after {
+        display: none;
+    }
+    .social :first-child {
+        margin: 10px 0px 10px 12px;
+    }
+    .social p{
+        padding-left: 10px;
+    }
 }

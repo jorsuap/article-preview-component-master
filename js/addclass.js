@@ -5,4 +5,7 @@ function myFunction() {
     element.classList.toggle("prueba1");
     var flecha = document.getElementById("share");
     flecha.classList.toggle("prueba2");
+    var redes = document.getElementById("social");
+    redes.classList.toggle("active");
+
 }
